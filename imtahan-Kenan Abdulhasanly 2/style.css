@@ -1,0 +1,50 @@
+.slide {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(31, 53, 45);
+}
+
+
+i{
+    color: #fff;
+}
+
+#left{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-55%,-50%);
+    border: none;
+    background-color: transparent;
+    font-size: 100px;
+    font-weight: 100;
+    
+
+}
+
+#right{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-55%,-50%);
+    border: none;
+    background-color: transparent;
+    font-size: 100px;
+}
+
+
+
+img{
+    width: 800px;
+    height: 500px;
+}
+
+#speed{
+    /* width: 90px; */
+    height: 7px;
+    /* opacity: 0.5; */
+    background-color: rgb(250, 245, 245);
+}
